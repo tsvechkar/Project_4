@@ -223,6 +223,9 @@
 
 /*footer*/
 
+
+/*footer_top*/
+
 .footer {
     height: 868px;
     background: #222224;
@@ -260,4 +263,76 @@
     font-weight: 300;
     font-size: 14px;
     line-height: 17px;
+}
+
+
+/*footer_center*/
+
+.footer_center {
+    background-image: url('../img/backgroung_footer.png');
+    height: 448px;
+    width: 100%;
+}
+
+.footer_center_wrap {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 448px;
+    width: 100%;
+}
+
+.footer_center_feedback {
+    width: 360px;
+    text-align: center;
+}
+
+.footer_feedback_paragraph {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.footer_center_subscribe {
+    width: 360px;
+}
+
+.footer_subscribe_text {
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.footer_subscribe_title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 167.2%;
+    text-align: center;
+}
+
+.footer_center_mail {
+    width: 256px;
+    height: 49px;
+    background: #E1E1E1;
+    border: 0;
+    border-radius: 100px 0px 0px 100px;
+    padding-left: 22px;
+}
+
+.footer_center_button {
+    background: #F16D7F;
+    padding: 6px 7px 6px 7px;
+    border: 0;
+    width: 100px;
+    height: 49px;
+    border-radius: 0px 100px 100px 0px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #FFFFFF;
 }
