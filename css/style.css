@@ -354,7 +354,7 @@
     }
     /*pad 768*/
     
-    @media (min-width: 768px) {
+    @media (max-width: 1024px) {
         .promo {
             height: 367px;
         }
@@ -396,3 +396,6 @@
             background-position: -418px 0;
         }
     }
+    /*phone*/
+    
+    @media (max-width: 812px) {}
