@@ -1,0 +1,60 @@
+/*arrivals*/
+
+.arrivals {
+    height: 148px;
+    background-color: #F8F3F4;
+    display: flex;
+    justify-content: space-around;
+}
+
+.heading_new_arrivals {
+    font-size: 24px;
+    font-weight: 400;
+    color: #F16D7F;
+    margin-top: 59px;
+}
+
+.heading_category {
+    color: #636363;
+    font-size: 14px;
+    font-weight: 300;
+    margin-top: 65px;
+}
+
+.heading_arrivals {
+    font-weight: 400;
+    color: #F16D7F;
+}
+
+
+/*filter*/
+
+.filter_wrap {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    height: 112px;
+}
+
+.filter_group {
+    margin-right: 330px;
+}
+
+.filter_text {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.filter_other {
+    display: flex;
+}
+
+.filter_item {
+    margin-right: 48px;
+}
+
+.filter_item_text {
+    font-size: 14px;
+    font-weight: 400;
+    color: #6F6E6E;
+}
