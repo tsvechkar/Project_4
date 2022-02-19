@@ -58,3 +58,25 @@
     font-weight: 400;
     color: #6F6E6E;
 }
+
+
+/*pagination*/
+
+.pagination_catalog {
+    display: inline-block;
+    width: 243px;
+    padding: 12px 0 13px 16px;
+    border: 1px solid #EBEBEB;
+    border-radius: 5px;
+    margin: 48px 0 96px 0;
+    text-align: center;
+}
+
+.pagination_catalog a {
+    color: #B1B1B1;
+    text-decoration: none;
+    float: left;
+    font-weight: 300;
+    font-size: 16px;
+    margin-right: 15px;
+}
