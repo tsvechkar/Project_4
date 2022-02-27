@@ -116,5 +116,21 @@
     .filter_group {
         margin-right: 5px;
         margin-right: 23px;
+        margin-right: 47px;
+    }
+    .filter_item:not(:last-child) {
+        margin-right: 24px;
+    }
+    .filter_item:last-child {
+        margin-right: 0px;
+    }
+    .filter_trending {
+        width: 125px;
+    }
+    .filter_size {
+        width: 45px;
+    }
+    .filter_price {
+        width: 55px;
     }
 }
